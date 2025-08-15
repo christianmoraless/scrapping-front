@@ -9,8 +9,10 @@
     },
   ],
   "compilerOptions": {
-    "skipLibCheck": true,
+    "jsx": "preserve",
     "noUnusedLocals": false,
-    "noUnusedParameters": false
-  }
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": false
+  },
 }
