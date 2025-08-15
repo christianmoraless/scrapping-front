@@ -28,7 +28,9 @@ export default tseslint.config([
           "ts-nocheck": true, // Prohíbe @ts-nocheck (opcional)
           "ts-check": true, // Prohíbe @ts-check (opcional),
           "@typescript-eslint/no-explicit-any": "off",
-          "ignoreRestSiblings": true
+          "ignoreRestSiblings": true,
+          '@typescript-eslint/no-unused-vars': 'off',
+          'no-unused-vars': 'off'
         },
       ]
     }
