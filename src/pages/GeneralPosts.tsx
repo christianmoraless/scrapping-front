@@ -1,8 +1,6 @@
-import { Container } from "../components/Structure"
+import { UnifiedSocialPosts } from "../components/UnifiedSocialPosts"
 export const GeneralPosts = () => {
     return (
-        <Container>
-            GeneralPosts
-        </Container>
+        <UnifiedSocialPosts />
     )
 }

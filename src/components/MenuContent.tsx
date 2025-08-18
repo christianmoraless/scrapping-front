@@ -10,7 +10,7 @@ import { NavLink } from 'react-router';
 const mainListItems = [
   { text: 'Informacion general', icon: <AnalyticsRoundedIcon />, path: '/' },
   { text: 'Datos de redes sociales', icon: <AnalyticsRoundedIcon />, path: '/social-media-posts' },
-  { text: 'Estadisticas de interaccion', icon: <AnalyticsRoundedIcon />, path: '/charts' },
+  // { text: 'Estadisticas de interaccion', icon: <AnalyticsRoundedIcon />, path: '/charts' },
 ];
 
 export default function MenuContent() {
